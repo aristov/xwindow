@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/aristov/window#readme",
   "dependencies": {
-    "jsdom": "^16.4.0"
+    "jsdom": "^19.0.0"
   }
 }
