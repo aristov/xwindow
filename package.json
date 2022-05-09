@@ -2,7 +2,7 @@
   "name": "window",
   "version": "0.0.1",
   "description": "Exports a jsdom window instance",
-  "main": "index.js",
+  "main": "window.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
