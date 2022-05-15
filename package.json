@@ -1,14 +1,11 @@
 {
-  "name": "window",
+  "name": "xwindow",
   "version": "0.0.1",
-  "description": "Exports a jsdom window instance",
-  "main": "window.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "This module exports a cross-platform window instance object.",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/aristov/window.git"
+    "url": "git+ssh://git@github.com/aristov/xwindow.git"
   },
   "keywords": [
     "window",
@@ -17,9 +14,9 @@
   "author": "Vyacheslav Aristov <vv.aristov@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aristov/window/issues"
+    "url": "https://github.com/aristov/xwindow/issues"
   },
-  "homepage": "https://github.com/aristov/window#readme",
+  "homepage": "https://github.com/aristov/xwindow#readme",
   "dependencies": {
     "jsdom": "^19.0.0"
   }

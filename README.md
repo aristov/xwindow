@@ -1,6 +1,9 @@
 # xwindow
 
+[![NPM Version](https://img.shields.io/npm/v/xwindow.svg?maxAge=2592000)](https://www.npmjs.com/package/xwindow)
+
 This module exports a cross-platform window instance object.
+
 * In the browser it just exports the global window object
 * In NodeJS it exports the newly created [JSDOM](https://www.npmjs.com/package/jsdom) window instance
 
@@ -45,4 +48,4 @@ if(node.nodeType === Node.ELEMENT_NODE) {
 
 ## License
 
-[The MIT License (MIT)](https://raw.githubusercontent.com/aristov/window/master/LICENSE)
+[The MIT License (MIT)](https://raw.githubusercontent.com/aristov/xwindow/master/LICENSE)
