@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "description": "This module exports a cross-platform window instance object.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "publish": "git push && git push --tags",
+    "test": "nyc ava",
+    "watch": "ava --watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/aristov/xwindow.git"
@@ -19,5 +27,9 @@
   "homepage": "https://github.com/aristov/xwindow#readme",
   "dependencies": {
     "jsdom": "^19.0.0"
+  },
+  "devDependencies": {
+    "ava": "^4.2.0",
+    "nyc": "^15.1.0"
   }
 }
