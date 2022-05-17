@@ -1,11 +1,11 @@
 # xwindow
 
-[![NPM Version](https://img.shields.io/npm/v/xwindow.svg?maxAge=2592000)](https://www.npmjs.com/package/xwindow)
+[![NPM Version](https://img.shields.io/npm/v/xwindow.svg)](https://www.npmjs.com/package/xwindow)
 
 This module exports a cross-platform window instance object.
 
 * In the browser it just exports the global window object
-* In NodeJS it exports the newly created [JSDOM](https://www.npmjs.com/package/jsdom) window instance
+* In NodeJS, it exports the newly created [JSDOM](https://www.npmjs.com/package/jsdom) window instance
 
 Thus, DOM-dependent modules become compatible and can be used both in NodeJS and in the browser.
 
@@ -17,16 +17,16 @@ npm install xwindow
 
 ## Usage
 
-### CommonJS
-
-```js
-const window = require('xwindow')
-```
-
-### ES2015
+ES2015
 
 ```js
 import window from 'xwindow'
+```
+
+CommonJS
+
+```js
+const window = require('xwindow')
 ```
 
 ## Example
