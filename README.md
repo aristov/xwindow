@@ -1,6 +1,8 @@
 # xwindow
 
 [![NPM Version](https://img.shields.io/npm/v/xwindow.svg)](https://www.npmjs.com/package/xwindow)
+[![Node.js CI](https://github.com/aristov/xwindow/actions/workflows/node.js.yml/badge.svg)](https://github.com/aristov/xwindow/actions/workflows/node.js.yml)
+[![Coverage Status](https://coveralls.io/repos/github/aristov/xwindow/badge.svg?branch=master)](https://coveralls.io/github/aristov/xwindow?branch=master)
 
 This module exports a cross-platform window instance object.
 
