@@ -1,5 +1,6 @@
 const test = require('ava')
-const window = require('./index')
+const { JSDOM } = require('jsdom')
+const window = require('.')
 const props = [
   'AbstractRange', 'Attr', 'Audio', 'BarProp', 'CDATASection', 'CSSImportRule', 'CSSMediaRule',
   'CSSRule', 'CSSStyleDeclaration', 'CSSStyleRule', 'CSSStyleSheet', 'CharacterData', 'CloseEvent',
@@ -63,9 +64,20 @@ test('properties', t => {
 })
 
 test('window.self', t => {
-  t.true(window.self === window, 'window.self === window')
+  t.is(window.self, window)
 })
 
 test('window.window', t => {
-  t.true(window.window === window, 'window.window === window')
+  t.is(window.window, window)
+})
+
+test('window.parent', t => {
+  t.is(window.parent, window)
+})
+
+test('global.window', t => {
+  delete require.cache[require.resolve('.')]
+  global.window = (new JSDOM).window
+  t.is(require('.'), global.window)
+  delete global.window
 })
