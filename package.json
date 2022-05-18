@@ -17,8 +17,11 @@
     "url": "git+ssh://git@github.com/aristov/xwindow.git"
   },
   "keywords": [
-    "window",
-    "jsdom"
+    "cross-platform",
+    "document",
+    "dom",
+    "jsdom",
+    "window"
   ],
   "author": "Vyacheslav Aristov <vv.aristov@gmail.com>",
   "license": "MIT",
