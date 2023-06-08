@@ -1,6 +1,6 @@
 {
   "name": "xwindow",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "This module exports a cross-platform window instance object.",
   "main": "index.js",
   "files": [
