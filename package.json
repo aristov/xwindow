@@ -30,10 +30,10 @@
   },
   "homepage": "https://github.com/aristov/xwindow#readme",
   "dependencies": {
-    "jsdom": "^20.0.1"
+    "jsdom": "^22.1.0"
   },
   "devDependencies": {
-    "ava": "^4.2.0",
+    "ava": "^5.3.0",
     "nyc": "^15.1.0"
   },
   "engines": {
